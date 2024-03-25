@@ -10,7 +10,11 @@ class_name_mapping = {
     "Truck": "delivery",
     "Sedan": "resident",
     "Coupe": "resident",
-    "Hatchback": "resident",
+    "Hatchback": "frequent visitor",
+    "Cab": "first-time visitor",
+    "Convertible": "visitor",
+    "Minivan": "delivery",
+    "Wagon": "frequent visitor"
 }
 
 # Define a function to match car class with partial string matching
